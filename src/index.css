@@ -1,13 +1,49 @@
 body {
   padding: 50px;
-  background-color: #efefef;
+  background-color: #181718;
 }
 
 h1 {
-  color: #333;
+  color: #ffffff;
+  border-color: #0dc544;
+  border-style: groove;
 }
 
 p{
   background-color:  #999;
   padding: 10px;
+}
+
+input{
+  border-radius: 8px;
+  background-color: #ffffff;
+  width: 70%;
+  height: 30px;
+  border-color: #14eb55;
+  font-size: 20px;
+}
+
+input:hover{
+  background-color: #e2e2e9;
+}
+
+button{
+  background-color: #0b6706;
+  color: #999;
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+}
+
+button:hover{
+  background-color: #1abd12;
+  color: aliceblue;
+}
+
+.InsercaoTarefas{
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: center;
 }
