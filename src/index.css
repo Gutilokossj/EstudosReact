@@ -5,9 +5,9 @@ body {
 
 h1 {
   color: #ffffff;
-  border-color: #0dc544;
-  border-style: groove;
+  display: flex;
 }
+
 
 p{
   background-color:  #999;
